@@ -4,6 +4,7 @@ import SQL from "../../Assets/SQL.png";
 import OOP from "../../Assets/OOP.webp";
 import Roman from "../../Assets/Roman.jpg";
 import form from "../../Assets/form.png";
+import investment_calculator from "../../Assets/investment_calculator.png"
 
 import React from "react";
 
@@ -40,6 +41,32 @@ const Work = () => {
                   </button>
                 </a>
                 <a href="https://bmi-calculator-hb89k22t5-dato-ts-hotmailcom.vercel.app/" target="_blank">
+                  <button className="text-center rounded-lg px-4 my-3 m-2 bg-white text-gray-700 text-bold text-lg">
+                    Live
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${investment_calculator})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                BMI Calculator
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://github.com/datots/Investment_calculator"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 my-3 m-2 bg-white text-gray-700 text-bold text-lg">
+                    Code
+                  </button>
+                </a>
+                <a href="https://investment-calculator-xi.vercel.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 my-3 m-2 bg-white text-gray-700 text-bold text-lg">
                     Live
                   </button>
