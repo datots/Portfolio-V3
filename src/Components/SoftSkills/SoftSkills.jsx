@@ -13,7 +13,7 @@ import professionalism from "../../Assets/SoftSkills/professionalism.png";
 
 const SoftSkills = () => {
   return (
-    <div name="softskills" className="w-full h-screen bg-[#0a192f] text-white">
+    <div name="softskills" className="w-full h-50% bg-[#0a192f] text-white">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-green-600 ">
