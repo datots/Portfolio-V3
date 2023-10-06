@@ -15,7 +15,7 @@ const Home = () => {
           web applications using the power of React.js.
         </p>
         <div>
-          <button className="text-white group border-2 px-6 py=3 my-2 flex items-center hover:bg-gray-600 hover:border-gray-500  ">
+          <button className="text-white group border-2 px-6 py=3 my-2 flex items-center hover:bg-gray-600 hover:border-gray-500 ">
             View Work 
             <span className="group-hover:rotate-90 duration-300">
             <HiArrowNarrowRight className="ml-3" />
