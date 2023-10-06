@@ -80,7 +80,11 @@ const NavBar = () => {
         </li>
         <li className="py-6 text-4xl">
           <Link
-            onClick={handleClick} to="softskills"  smooth={true} duration={500}>
+            onClick={handleClick}
+            to="softskills"
+            smooth={true}
+            duration={500}
+          >
             Professional Skills
           </Link>
         </li>
@@ -100,8 +104,8 @@ const NavBar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
             <a
-              href="https://www.linkedin.com/in/david-tsanava-18a1421a6/"
               target="_blank"
+              href="https://www.linkedin.com/in/david-tsanava-18a1421a6/"
               className="flex justify-between items-center w-full text-silver-300"
             >
               Linkedin <FaLinkedin size={30} />
@@ -109,8 +113,8 @@ const NavBar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
-              href="https://github.com/datots"
               target="_blank"
+              href="https://github.com/datots"
               className="flex justify-between items-center w-full text-gray-300"
             >
               GitHub <FaGithub size={30} />
@@ -118,8 +122,8 @@ const NavBar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
-              href="mailto:datotsanava1988@gmail.com"
               target="_blank"
+              href="mailto:datotsanava1988@gmail.com"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Email <HiOutlineMail size={30} />
@@ -127,7 +131,8 @@ const NavBar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
-              href="https://drive.google.com/file/d/1LPCYeRGS4vf93GiO_BJ2FSTpB2mPSPsi/view?usp=sharing"
+              href="https://drive.google.com/file/d/1yU3u2r44AU4GXKCDIVURfBvNoXFDUw0W/view?usp=sharing"
+              target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Resume <BsFillPersonLinesFill size={30} />
